@@ -1,8 +1,8 @@
 #!/bin/bash
 
-VER_HTSLIB="1.7"
-VER_SAMTOOLS="1.7"
-VER_BIODBHTS="2.9"
+VER_HTSLIB="1.11"
+VER_SAMTOOLS="1.11"
+VER_BIODBHTS="3.01"
 
 if [ "$#" -ne "1" ] ; then
   echo "Please provide an installation path  such as /opt/ICGC"
